@@ -125,10 +125,10 @@ export default function ChatInterface() {
             <Menu className="w-6 h-6 text-gray-600" />
           </button>
           <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white font-semibold">
-            JD
+            AS
           </div>
           <div>
-            <h2 className="font-semibold text-gray-800">John Doe</h2>
+            <h2 className="font-semibold text-gray-800">Sayed</h2>
             <p className="text-xs text-green-500">Online</p>
           </div>
         </div>
