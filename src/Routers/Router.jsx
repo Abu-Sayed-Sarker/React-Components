@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Dashboard from "../Layouts/Dashboard";
-import ChatInterface from "../Pages/KEyboardViewPortChat/ChatInterface";
+import ChatInterface from "../Pages/Keyboard View Port Chat/ChatInterface";
 
 export const router = createBrowserRouter([
   {
