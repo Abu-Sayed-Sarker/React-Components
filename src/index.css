@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poly:ital@0;1&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+/* Default theme - Light Mode */
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --primary-color: #3490dc;
+    --secondary-color: #ffed4a;
+    --accent-color: #38b2ac;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+    --background-color: #1a202c;
+    --text-color: #f7fafc;
+    --primary-color: #4fd1c5;
+    --secondary-color: #f6e05e;
+    --accent-color: #d53f8c;
+}
+
+/* Blue theme */
+[data-theme="blue"] {
+    --background-color: #e0f7fa;
+    --text-color: #004d40;
+    --primary-color: #0288d1;
+    --secondary-color: #00bcd4;
+    --accent-color: #80deea;
+}
